@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: #E2E2BE;
+	line-height: 25px;
+	background-color: #292930;
+
+}
+
+header{
+	background-color: #CACAB9;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: #292940;
+	font-size: 50px;
+}
+
+h1, h2{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header img{
+	max-width: 170px;
+}
+
+
+button :clickable{
+	color: #8E8E81;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+	border-radius: 170px;
+
+}
+
+h2{
+	font-size: 30px;
+	color: #292940;
+	margin: 40px 0px 10px;
+}
+
+h3{
+	font-size: 30px;
+	color: #6C86B8;
+	margin: 40px 0px 10px;
+
+}
+
+
+a{
+	color: #F38714;
+}
+
+a:hover{
+	color: #E2E2BE;
+	opacity: 75%;
+}
+
+footer{
+	background-color: #CACAB9;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0
+	}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: 50%;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+	text-align: center;
+}
+
+/*caroussel*/
+
+.characters {
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
+
+.characters-image {
+  width: 35%;
+  border-radius: 100px;
+  border: 5px solid #16c79a;
+  margin: 15px 15px 15px 70px;
+  float: left;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
+
+.carousel-inner p {
+padding-right: 10%;
+align-self: center;
+}
+
+/*Reeitas*/
+
+.other-characters{
+margin: 50px 0;
+}
+
+.right-alignment {
+  text-align: right;
+}
+
+
+.button {
+  border: 1px solid #008891;
+  text-decoration: none;
+  color: #008891;
+  padding: 5px 20px;
+  margin: 35px 0;
+  display: inline-block;
+  border-radius: 50px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out,
+
+}
+.button:hover {
+  background: #16c79a;
+  color: white;
+}
+
+.other-characters img {
+  border-radius: 50%;
+  padding-top: 15px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.3));
+}
+img.right-shadow {
+    filter: drop-shadow(-10px 10px 5px rgba(0, 0, 0, 0.3));
+}
+
+figcaption {
+  font-size: 10px;
+  margin-top: 5px;
+}
